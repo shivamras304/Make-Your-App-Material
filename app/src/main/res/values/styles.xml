@@ -1,0 +1,31 @@
+<resources>
+
+    <style name="MainTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/deep_orange_500</item>
+        <item name="colorPrimaryDark">@color/deep_orange_700</item>
+        <item name="colorAccent">@color/teal_accent_custom</item>
+        <item name="toolbarStyle">@style/ToolBar</item>
+    </style>
+
+    <style name="DetailTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/deep_orange_500</item>
+        <item name="colorPrimaryDark">@color/deep_orange_700</item>
+        <item name="colorAccent">@color/teal_accent_custom</item>
+    </style>
+
+
+    <style name="ToolBar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">@color/deep_orange_500</item>
+        <item name="popupTheme">@style/Theme.AppCompat.Light.DarkActionBar</item>
+    </style>
+
+    <style name="Title" parent="TextAppearance.AppCompat.Subhead">
+        <item name="android:textColor">@color/grey_800</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="SubTitle" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textColor">@color/grey_500</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+</resources>
