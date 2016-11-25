@@ -20,7 +20,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.example.shivam.xyzreader.R;
 import com.example.shivam.xyzreader.extras.ArticleLoader;
@@ -43,13 +42,6 @@ public class DetailFragment extends Fragment implements LoaderManager.LoaderCall
     private ImageView mPhotoView;
 
     private String fabMessage = "";
-    private int vibrantColor;
-    private int vibrantDarkColor;
-    private int vibrantLightColor;
-    private int mutedColor;
-    private int mutedDarkColor;
-    private int mutedLightColor;
-
 
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
@@ -103,7 +95,6 @@ public class DetailFragment extends Fragment implements LoaderManager.LoaderCall
                         .setType("text/plain")
                         .setText(fabMessage)
                         .getIntent(), getString(R.string.action_share)));
-                Toast.makeText(getActivityCast(), "Toing Toing!", Toast.LENGTH_SHORT).show();
             }
         });
 
